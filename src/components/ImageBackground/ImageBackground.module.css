@@ -1,0 +1,12 @@
+.profile-photo {
+  width: 250px;
+  height: 400px;
+  margin-left: 150px;
+  border: 2px solid white;
+  transition: transform 0.5s ease-in-out;
+  border-radius: 5px;
+}
+
+.profile-photo:hover {
+  transform: scale(1.5);
+}

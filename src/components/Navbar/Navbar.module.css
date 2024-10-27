@@ -1,0 +1,15 @@
+.nav-list {
+    max-width: 600px;
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    padding: 10px 30px 10px 250px;
+    background-color: var(--prime-color);
+    margin-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+
+}
