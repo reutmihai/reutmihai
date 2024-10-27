@@ -20,9 +20,25 @@
 .titleBackground {
     background-color: var(--prime-color);
     padding: 2px 10px;
+    border: 1px solid black;
 }
 
 .about-buttons {
     display: flex;
     justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        max-width: 95%; 
+        padding: 20px; 
+    }
+
+    .aboutMe {
+        width: 100%; 
+    }
+
+    .about-buttons {
+        flex-direction: column; 
+    }
 }

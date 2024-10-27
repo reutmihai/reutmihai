@@ -3,6 +3,7 @@ import { AboutMe } from '../components/AboutMe/AboutMe';
 import { Navbar } from './Navbar/Navbar';
 import '../components/App.css';
 import { ImageBackground } from './ImageBackground/ImageBackground';
+import { InfoAboutMe } from './InfoAboutMe/InfoAboutMe';
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
       <AboutMe />
       <ImageBackground />
       </div>
+      <InfoAboutMe />
+
     </div>
   )
 }

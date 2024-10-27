@@ -2,14 +2,26 @@
     max-width: 600px;
     display: flex;
     justify-content: end;
-    gap: 50px;
-    padding: 10px 30px 10px 250px;
+    padding: 10px 30px 10px 200px;
     background-color: var(--prime-color);
-    margin-bottom: 50px;
+}
+
+.nav-list li {
+    padding: 2px 15px;
 }
 
 nav {
     display: flex;
     justify-content: flex-end;
 
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column; 
+    }
+
+    .nav-list li {
+        margin: 10px 0;
+    }
 }
