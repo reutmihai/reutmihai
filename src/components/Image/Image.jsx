@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from '../ImageBackground/ImageBackground.module.css';
+import styles from '../Image/Image.module.css';
 
-export const ImageBackground = () => {
+export const Image = () => {
   return (
     <img className={styles['profile-photo']} src="./src/assets/profilePhoto.jpeg" />
   );

@@ -1,0 +1,21 @@
+.typingAnimation {
+  font-family: 'Courier New', monospace; /* Un font monospațiat poate ajuta */
+  font-size: 24px; /* Ajustează dimensiunea fontului după preferințe */
+}
+
+.cursor {
+  display: inline; /* Asigură că cursorul apare alături de text */
+  animation: blink 1s step-end infinite; /* Adaugă o animație de clipire */
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
