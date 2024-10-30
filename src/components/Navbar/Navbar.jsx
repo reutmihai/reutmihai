@@ -6,20 +6,20 @@ export const Navbar = () => {
     const menuItems = [
         {
             id: '1',
-            name: 'ABOUT ME',
+            name: 'HOME',
             path: '/',
         },
 
         {
             id: '2',
             name: 'MY WORK',
-            path: '/projects',
+            path: 'projects',
         },
 
         {
             id: '3',
             name: 'CONTACT ME',
-            path: '/contactMe',
+            path: 'contact',
         }
     ]
   return (

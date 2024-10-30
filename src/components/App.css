@@ -3,15 +3,11 @@
 }
 
 .container {
-  min-width: 1280px;
+  max-width: 1280px;
+  margin: 150px 0px;
 }
 
-.flexbox {
-  display: flex;
-  align-items: center;
-  margin-top: 150px;
-  flex-wrap: wrap;
-}
+
 
 @media (max-width: 768px) {
   .container {
