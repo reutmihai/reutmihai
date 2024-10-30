@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import styles from "../Homepage/Homepage.module.css";
 import { InfoAboutMe } from "../InfoAboutMe/InfoAboutMe";
+import ContactMe from "../ContactMe/ContactMe";
 
 export const Homepage = () => {
   const infoRef = useRef(null);
@@ -38,6 +39,9 @@ export const Homepage = () => {
 
       <div ref={infoRef} className={styles["info-section"]}>
         <InfoAboutMe />
+      </div>
+      <div>
+        <ContactMe />
       </div>
     </>
   );

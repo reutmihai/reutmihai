@@ -1,0 +1,25 @@
+.contactContainer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Spațiu între iconițe */
+}
+
+.icon {
+    margin-right: 8px; /* Spațiu între iconiță și text */
+}
+
+.iconSvg {
+    width: 24px; /* Dimensiunea iconiței */
+    height: auto;
+    fill: #fff; /* Schimbă culoarea iconiței dacă este necesar */
+    transition: transform 0.3s ease; /* Efect de tranziție la hover */
+}
+
+.iconSvg:hover {
+    transform: scale(1.1); /* Mărire la hover */
+}
