@@ -20,14 +20,14 @@ Features
 
 Installation & Local Setup
 
-1.Clone the repository
-git clone https://github.com/user/bps-paving.git
+1. Clone the repository
+git clone https://github.com/reutmihai/bps-paving.git
 cd bps-paving
 
-2.Install dependencies
+2. Install dependencies
 npm install
 
-3.Run the project locally
+3. Run the project locally
 npm run dev
 
 Live URL
